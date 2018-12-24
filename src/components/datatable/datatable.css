@@ -1,0 +1,35 @@
+/* .MuiPaper-root-125 {
+    background-color: #2a2a2a !important; 
+} */
+
+.dt div, .dt th, .dt td, .dt h6, .dt svg{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.dt option {
+    background: white !important;
+    background-color: white !important;
+    color: black;
+}
+
+.dt .education-background-primary {
+    margin-bottom: 10px;
+}
+
+.dt__table-head th {
+    font-size: 1rem !important;
+    font-weight: bold;
+}
+
+.dt__wrapper {
+    overflow-x: auto;
+}
+
+.dt__root {
+    width: '100%';
+}
+
+.dt__table {
+    min-height: 400px;
+}

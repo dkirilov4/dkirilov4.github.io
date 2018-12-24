@@ -1,0 +1,55 @@
+.info {
+    flex: 3;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.info__employment, .info__education, .info__skills {
+    box-sizing: border-box;
+    /* padding: 10px; */
+    margin: 10px 0px;
+    
+    flex-basis: 32%;
+
+    background: #2a2a2a;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info-title {
+    padding: 10px;
+    background: #494949;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info__education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-background {
+    padding: 24px 16px;
+    font-size: 1rem;
+}
+
+.education-background-primary {
+    font-size: 1rem;
+}
+
+.education-background-secondary {
+    color: #747474;
+    font-size: 0.85rem;
+}
+
+.divider {
+    flex: 1;
+}
+
+@media (min-width: 769px) {
+    .info {    
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,28 @@
+.stepper__vertical {
+    background-color: transparent !important;
+}
+
+.stepper__step-label-primary {
+    font-size: 1rem !important;
+    color: white !important;
+}
+
+.stepper__step-label-secondary {
+    color: #747474 !important;
+    font-size: 0.85rem;
+    float: left;
+}
+
+.stepper__step-content-subheading {
+    color: #cccccc !important;
+    font-size: 0.9rem !important;
+}
+
+.stepper__step-content-body {
+    color: #cccccc !important;
+    font-size: 0.9rem !important;
+}
+
+[class*="MuiStepIcon-active"] {
+    color: #ff652f !important;
+}
